@@ -1,0 +1,117 @@
+#container{
+    width: 1200px;
+    height: 768px;
+    margin: auto; /* asdafsd */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: lightcyan;
+    position: relative;
+    overflow: hidden; /* sjuler alt utenfor blocken */
+}
+
+#losAngelesTitle{
+    position: absolute;
+    font-family: sans-serif;
+    color: darkgoldenrod;
+    top: 10px;
+    left: 500px;
+}
+#buttenLink{
+    position: absolute;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    top: 45px;
+    left: 50px;
+    text
+}
+
+#backgroundHill{
+    position: absolute;
+    width: 100%;
+    bottom: 330px;
+}
+#beach{
+    position: absolute;
+    width: 100%;
+    bottom: 125px;
+}
+#road{
+    position: absolute;
+    width: 1400px;
+    height: 40px;
+    bottom: 195px;
+    left: -10px;
+    z-index: 1;
+}
+#sidewalk{
+    position: absolute;
+    width: 100%;
+    bottom: 230px;
+}
+#tracks{
+    position: absolute;
+    width: 100%;
+    bottom: 260px;
+}
+#water{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#miniWall{
+    position: absolute;
+    width: 1200px;
+    height: 100px;
+    background-color: darkolivegreen;
+    
+    bottom: 260px;
+    
+}
+
+#palmOne{
+    position: absolute;
+    width: 10%;
+    bottom: 170px;
+    left: 100px;
+    z-index: 100;
+}
+#palmTwo{
+    position: absolute;
+    width: 10%;
+    bottom: 250px;
+    right: 0px;
+}
+#supershop{
+    position: absolute;
+    width: 15%;
+    bottom: 255px;
+    right: 250px;
+}
+#surfturf{
+    position: absolute;
+    width: 15%;
+    bottom: 250px;
+    right: 50px;
+}
+
+#metro{
+    position: absolute;
+    width: 500px;
+    bottom: 335px;
+}
+
+.car{
+    position: absolute;
+    width: 12%;
+}
+#carOne{
+    bottom: 200px;
+    z-index: 2;
+}
+#carTwo{
+    bottom: 200px;
+    z-index: 2;
+    left: 200px;
+}

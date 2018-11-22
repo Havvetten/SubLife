@@ -1,0 +1,53 @@
+#container{
+    width: 1200px;
+    height: 768px;
+    margin: auto; /* asdafsd */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: lightcyan;
+    position: relative;
+    overflow: hidden; /* sjuler alt utenfor blocken */
+}
+#londonTitle{
+    position: absolute;
+    font-family: sans-serif;
+    color: black;
+    top: 10px;
+    left: 500px;
+}
+#buttenLink{
+    position: absolute;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    top: 45px;
+    left: 50px;
+}
+.placement{
+    position: absolute;
+    width: 100%;
+}
+
+#platform{
+    bottom: 0;
+}
+#otherside{
+    bottom: 100px;
+    z-index: 1;
+}
+#wall{
+    top: 89px;
+    height: 500px;
+    z-index: 0;
+}
+
+#sign{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    
+    top: 360px;
+    left: 366px;
+}
+

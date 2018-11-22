@@ -1,0 +1,199 @@
+#container{
+    width: 1200px;
+    height: 768px;
+    margin: auto; /* asdafsd */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden; /* sjuler alt utenfor blocken */
+}
+#wall{
+    height: 300px;
+    position: absolute;
+    bottom: 230px;
+}
+
+#platformOtherside{
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+
+#platform{
+    height: 110px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+#blackwall{
+    height: 40px;
+    position: absolute;
+    bottom: 190px;
+}
+
+#roof{
+    height: 220px;
+    position: absolute;
+    bottom: 630px;
+}
+
+#bluewall{
+    height: 110px;
+    position: absolute;
+    bottom: 530px;
+}
+
+#trainstortinget{
+    height: 400px;
+    position: absolute;
+    z-index: 0;
+    bottom: 0px;
+    left: -6000px;
+    animation: trainstortinget 8s ease forwards;  
+}
+
+.benk{
+    height: 10px;
+    position: absolute;
+    bottom: 230px;
+}
+
+#benk1{
+    left: 100px; 
+    position: absolute;
+}
+#benk2{
+    left: 500px; 
+    position: absolute;
+}
+#benk3{
+    left: 950px; 
+    position: absolute;
+}
+
+#channel{
+    height: 250px;
+    position: absolute;
+    left: 900px;
+    bottom: 110px;
+    z-index: 1;
+}
+
+#reklame{
+    height: 159px;
+    width: 105px;
+    bottom: 190px;
+    left: 906px;
+    position: absolute;
+    border-radius: 0; 
+    background-color: rgb(0,250,0);
+    z-index: 10;
+    overflow: hidden;
+}
+
+.mann{
+    height: 150px;
+    position: absolute;
+    z-index: 10;
+}
+
+#per1{
+    bottom: 190px;
+    left: 200px;
+    z-index: 0;
+    animation: permoves1 10s ease forwards;
+}
+#per2{
+    bottom: 10px; 
+    left: 700px;
+    animation: permoves2 10s ease forwards;
+}
+#per3{
+    bottom: 40px; 
+    left: 400px;
+    animation: permoves3 10s ease forwards;
+}
+#per4{
+    bottom: 40px; 
+    left: 1050px;
+    animation: permoves4 10s ease forwards;
+}
+
+#textboxstortinget{
+    height: 300px;
+    width: 500px;
+    bottom: 400px;
+    left: 500px;
+    position: absolute;
+    border-radius: 10%; 
+    background-color: rgb(255,255,255);
+    z-index: 10;
+}
+
+#text{
+    color: black;
+    text-align: center;
+    
+}
+
+@keyframes trainstortinget{
+    0%{
+        left: -6000px;
+    }
+    100%{
+        left: -700px;
+    }
+}
+
+#textboxstortinget:hover{
+    opacity: 0.10;
+    transition-duration: 5s;
+}
+
+@keyframes permoves1{
+    0%{
+        left: 0px;   
+    }
+    50%{
+        left: 400px;
+    }
+    100%{
+        left: 900px;
+    }   
+}
+
+@keyframes permoves2{
+    0%{
+        left: 700px;   
+    }
+    50%{
+        left: 400px;
+    }
+    100%{
+        left: 200px;
+    }   
+}
+
+@keyframes permoves3{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 800px;
+    }   
+}
+
+@keyframes permoves4{
+    0%{
+        left: 1050px;   
+    }
+    50%{
+        left: 400px;
+    }
+    100%{
+        left: 900px;
+    }   
+}

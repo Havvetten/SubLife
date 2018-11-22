@@ -1,0 +1,160 @@
+h2{
+    position: absolute;
+    font-size: 20px;
+    font-family: verdana;
+    color: rgb(77,77,64);
+    left: 340px;
+    top: 150px;
+    z-index: 3;
+}
+#tekstboks{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(77,77,70);
+    position: absolute;
+    top: 100px;
+    left: 850px;
+    border: 2px rgb(77,77,64) solid;
+    border-radius: 10%;
+    z-index: 4;
+}
+#tekstboks{
+    text-align: center;
+    font-family: verdana;
+    color: rgb(200,200,200);
+    font-size: 18px;
+}
+#tekstboks:hover{
+    opacity: 2;
+    transition: all 2s ease 2s;
+}
+
+#platform{
+    position: absolute;
+    width: 1200px;
+    bottom: 0px;
+    z-index: 1;
+}
+#platformotherside{
+    position: absolute;
+    width: 1200px;
+    bottom: 120px;
+}
+#stationwall{
+    position: absolute;
+    width: 1200px;
+}
+#train{
+    position: absolute;
+    width: 1400px;
+    bottom: 100px;
+    animation: trainmove 5s;
+       
+}
+@keyframes trainmove{
+0%{
+    bottom: 100px;
+    left: 800px;     
+    }
+100%{
+    bottom: 100px;
+    left: 100px;
+    }
+    
+}
+#sign{
+    position: absolute;
+    width: 60px; 
+    left: 385px;
+    bottom: 350px;
+    z-index: 3;
+    }    
+.per{
+    z-index: 2;
+}
+
+#per1{
+    position: absolute;
+    width: 50px;
+    bottom: 80px;
+    left: 15px;
+}
+
+#per2{
+    position: absolute;
+    width: 50px;
+    bottom: 80px;
+    left: 200px;
+}
+#per3{
+    position: absolute;
+    width: 50px;
+    bottom: 80px;
+    left: 300px;
+}
+#per4{
+    position: absolute;
+    width: 50px;
+    bottom: 40px;
+    left: 250px;
+}
+#per5{
+    position: absolute;
+    width: 50px;
+    bottom: 70px;
+    left: 400px;
+}
+#per6{
+    position: absolute;
+    width: 50px;
+    bottom: 50px;
+    left: 600px;
+}
+#per7{
+    position: absolute;
+    width: 50px;
+    bottom: 80px;
+    left: 200px;
+}
+#per8{
+    position: absolute;
+    width: 50px;
+    bottom: 80px;
+    left: 700px;
+}
+#per9{
+    position: absolute;
+    width: 50px;
+    bottom: 80px;
+    left: 800px;
+}
+#per10{
+    position: absolute;
+    width: 50px;
+    bottom: 80px;
+    left: 700px;
+}
+#per11{
+    position: absolute;
+    width: 50px;
+    bottom: 40px;
+    left: 900px;
+}
+#per12{
+    position: absolute;
+    width: 50px;
+    bottom: 100px;
+    left: 1000px;
+}
+#per13{
+    position: absolute;
+    width: 50px;
+    bottom: 70px;
+    left: 450px;
+}
+#per14{
+    position: absolute;
+    width: 50px;
+    bottom: 45px;
+    left: 950px;
+}
